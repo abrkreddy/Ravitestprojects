@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left; 
+    padding: 15px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #745DB3;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :#DB58BD;
+    color: #ffffff;
+    float:left;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+    background-color: #B53A98;
+}
+clear;
+.lside {
+   
+    background-color: #E8E7E3;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    
+}
+.rside {
+    background-color: #E8E7E3; 
+    padding: 15px;
+    color: #17140C;
+    font-size: 14px;
+    height: 300px;
+    /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+}
+
+@media only screen and (min-width: 768px){
+
+.img{
+    border: 1px solid #ccc;
+}
+.img:hover {
+    border: 1px solid #777;
+}
+.img img {
+    width: 100%;
+    height: 200px;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+.desc {
+    padding: 5px;
+    text-align: center;
+    font-size: 12px
+    }
+}
+.footer {
+    background-color: #745DB3;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+</style>
+</head>
+<body bgcolor="#E8E7E3">
+
+<div class="header">
+  <h1>Two View layout</h1>
+</div>
+
+<div class="row">
+
+<div class="col-9  menu">
+  <ul>
+    <li>Home</li>
+    <li>Gallery</li>
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+</div>
+<div class="col-9" >
+  <h1>Prabhas Biography</h1>
+  <p>Prabhas (born Venkata Satyanarayana Prabhas Raju Uppalapati) is an Indian film actor known for his works in Telugu cinema. Prabhas is the nephew of veteran Telugu actor Krishnam Raju. Prabhas made his film debut with the 2002 drama film, Eshwar. His works include Varsham (2004), Chatrapathi (2005), Chakram (2005), Billa (2009), Mr. Perfect (2011), and Mirchi (2013) In 2014 he appeared in the Bollywood film Action Jackson directed by Prabhudeva.</p>
+ 
+</div>
+
+<div class="col-3 ">
+  <div class="lside">
+    <img src="http://www.cinekushi.com/wp-content/uploads/2016/08/Prabhas.jpg" width="460" height="345">
+  </div>
+</div>
+
+
+<div class="col-12">
+    <h1>Gallery<h1>
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="http://files.prokerala.com/downloads/pics/1920x1080/prabhas-52548.jpg">
+      <img src="http://files.prokerala.com/downloads/pics/1920x1080/prabhas-52548.jpg" alt="Prabhas Mirchi" width="300" height="200">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="http://full.creative.touchtalent.com/prabhas-186497.jpg">
+      <img src="http://full.creative.touchtalent.com/prabhas-186497.jpg" alt="Prabhas Darling" width="300" height="200">
+    </a>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="http://static.dnaindia.com/sites/default/files/2015/10/23/387786-prabhas.jpg">
+      <img src="http://static.dnaindia.com/sites/default/files/2015/10/23/387786-prabhas.jpg" alt="Prabhas Rebel" width="300" height="200">
+    </a>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="http://ste.india.com/sites/default/files/2016/04/15/479267-prabhas-123-new.jpg">
+      <img src="http://ste.india.com/sites/default/files/2016/04/15/479267-prabhas-123-new.jpg" alt="Prabhas Bahubali" width="300" height="200">
+    </a>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="row">
+
+<div class="col-12">
+<h2>Notable Roles</h2>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="http://files.prokerala.com/downloads/pics/1920x1080/prabhas-52548.jpg">
+      <img src="http://files.prokerala.com/downloads/pics/1920x1080/prabhas-52548.jpg" alt="Prabhas Mirchi" width="300" height="200">
+    </a>
+     <div class="desc">As <strong>Jai</strong> in Mirchi</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="http://full.creative.touchtalent.com/prabhas-186497.jpg">
+      <img src="http://full.creative.touchtalent.com/prabhas-186497.jpg" alt="Prabhas Darling" width="300" height="200">
+    </a>
+    <div class="desc">As <strong>Prabha</strong> in Darling</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="http://static.dnaindia.com/sites/default/files/2015/10/23/387786-prabhas.jpg">
+      <img src="http://static.dnaindia.com/sites/default/files/2015/10/23/387786-prabhas.jpg" alt="Prabhas Rebel" width="300" height="200">
+    </a>
+    <div class="desc">As <strong>Billa</strong> in Billa</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="http://ste.india.com/sites/default/files/2016/04/15/479267-prabhas-123-new.jpg">
+      <img src="http://ste.india.com/sites/default/files/2016/04/15/479267-prabhas-123-new.jpg" alt="Prabhas Bahubali" width="300" height="200">
+    </a>
+    <div class="desc">As <strong>Amrendra Bahubali</strong> in Bahubali</div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="row">
+
+<div class="col-6 rside">
+<h2>Awards</h2>
+<ul>
+    <li>CineMaa award for Best actor in 2010 for Darlig Movie</li>
+    <li>National award for Best film in 2015 for Bahubali Movie</li></ul>
+</div>
+
+
+
+<div class="col-6 rside">
+<h1>For more informatio click on below links</h1>
+<ul>
+    <li><a href="https://en.wikipedia.org/wiki/Prabhas" target="_blank"><b>Wiki Page</b></a></li>
+    <li><a href="https://www.google.co.in/search?q=prabhas+images+gallery&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjQxZnmjLfQAhXBRI8KHQr3CToQsAQIGg&biw=1366&bih=589"  target="_blank"><b>Images</b></a></li>
+    <li><a href="http://www.imdb.com/name/nm1659141/" target="_blank"><b>Imdb</b></a></li>
+    <li><a href="http://www.prabhas.com//" target="_blank"><b>Prabhas Home Page</b></a></li>
+
+</ul>
+</div>
+
+</div>
+</br>
+
+
+
+<div class="footer">
+  <p><span><b>Kowshik Kumar</b></span> &nbsp; <time>19-Nov-2016</time> <date></p>
+</div>
+
+</body>
+</html>
+
